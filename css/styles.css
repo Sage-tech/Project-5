@@ -6,13 +6,13 @@ padding: 25px;
 margin: 25px;
 }
 .gallery{
- display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 20px 20px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width:900px;
+  justify-content: center;
+  max-width: 60%; 
+  margin: auto;
 }
 .search{
     display: grid;
