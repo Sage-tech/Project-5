@@ -1,5 +1,5 @@
 *{
-background:AliceBlue;
+background: AliceBlue;
 }
 body {
 padding: 25px;
@@ -38,6 +38,7 @@ opacity: 0.6;
 background-color: AliceBlue; 
 }
 img{
+    border-radius: 9%;
     opacity: 1;
     transition: opacity .30s ease-in-out;
     -moz-transition: opacity .30s ease-in-out;
