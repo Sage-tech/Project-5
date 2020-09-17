@@ -36,11 +36,11 @@ border-style: solid;
 font-size: 16px;
 padding:10px;
 }
-img:hover{
+.thumb:hover{
 opacity: 0.6;
 background-color: AliceBlue; 
 }
-img{
+.thumb{
     justify-content: center;
     opacity: 1;
     transition: opacity .30s ease-in-out;
