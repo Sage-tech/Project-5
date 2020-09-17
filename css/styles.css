@@ -10,9 +10,10 @@ margin: 25px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:900px;
   justify-content: center;
-  max-width: 60%; 
-  margin: auto;
 }
 .search{
     display: grid;
@@ -38,7 +39,7 @@ opacity: 0.6;
 background-color: AliceBlue; 
 }
 img{
-    border-radius: 9%;
+    border-radius: 5%;
     opacity: 1;
     transition: opacity .30s ease-in-out;
     -moz-transition: opacity .30s ease-in-out;
