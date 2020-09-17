@@ -1,5 +1,5 @@
 
 window.addEventListener('load', function() {
-    baguetteBox.run('.contaniner')
+    baguetteBox.run('.gallery')
    });
    const search = new Filter('search', 'data-caption')
